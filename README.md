@@ -59,8 +59,18 @@ Data Mining (Preprocessing → Feature Engineering → ML Models)
 | XGBoost | Gradient boosting for improved accuracy |
 | LightGBM | Efficient boosting for large-scale data |
 
-- Evaluated models using classification metrics (accuracy, precision, recall, F1-score)
-- Identified patterns in game popularity and user engagement
+- Evaluated and compared models using regression metrics:
+
+| Metric | Decision Tree | XGBoost | LightGBM |
+|---|---|---|---|
+| MSE | 0.3209 | 0.1906 | 0.3209 |
+| RMSE | 0.5665 | 0.4366 | 0.5665 |
+| MAE | 0.3110 | 0.2353 | 0.3110 |
+| MAPE (%) | 5.0299 | 3.8191 | 5.0299 |
+| R² | 0.8504 | 0.9111 | 0.8504 |
+| Test Accuracy (from MAPE) | 94.97% | 96.18% | 94.97% |
+
+> XGBoost achieved the best overall performance across all metrics.
 
 ---
 
