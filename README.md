@@ -8,6 +8,10 @@ A data warehouse and online analytical processing (OLAP) project built on Steam 
 
 This project was developed as part of a data warehousing course. The goal is to analyze Steam game data across multiple dimensions (sales trends, genre performance, player behavior) using a structured data warehouse, OLAP cube, and machine learning models.
 
+<p align="center">  
+  <img src="img/1.png">
+</p>
+
 **Team size:** 2 members. Each member owned an independent data table across all pipeline stages. The data mining module was completed individually.
 
 ---
