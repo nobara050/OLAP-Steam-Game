@@ -63,14 +63,14 @@ Data Mining (Preprocessing → Feature Engineering → ML Models)
 
 | Metric | Decision Tree | XGBoost | LightGBM |
 |---|---|---|---|
-| MSE | 0.3209 | 0.1906 | 0.3209 |
-| RMSE | 0.5665 | 0.4366 | 0.5665 |
-| MAE | 0.3110 | 0.2353 | 0.3110 |
-| MAPE (%) | 5.0299 | 3.8191 | 5.0299 |
-| R² | 0.8504 | 0.9111 | 0.8504 |
-| Test Accuracy (from MAPE) | 94.97% | 96.18% | 94.97% |
+| MSE | 0.3209 | 0.1906 | 0.1608 |
+| RMSE | 0.5665 | 0.4366 | 0.401 |
+| MAE | 0.3110 | 0.2353 | 0.2228 |
+| MAPE (%) | 5.0299 | 3.8191 | 3.5996 |
+| R² | 0.8504 | 0.9111 | 0.925 |
+| Test Accuracy (from MAPE) | 94.97% | 96.18% | 96.40% |
 
-> XGBoost achieved the best overall performance across all metrics.
+> LightGBM achieved the best overall performance across all metrics.
 
 ---
 
